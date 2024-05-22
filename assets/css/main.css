@@ -731,7 +731,8 @@ h6 {
 }
 
 .gallery .gallery-links .preview-link,
-.gallery .gallery-links .details-link {
+.gallery .gallery-links .details-link, 
+.gallery .gallery-links .website-links {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   transition: 0.3s;
@@ -740,7 +741,8 @@ h6 {
 }
 
 .gallery .gallery-links .preview-link:hover,
-.gallery .gallery-links .details-link:hover {
+.gallery .gallery-links .details-link:hover, 
+.gallery .gallery-links .website-links:hover {
   color: #fff;
 }
 
@@ -754,7 +756,8 @@ h6 {
 }
 
 .gallery .gallery-item:hover .preview-link,
-.gallery .gallery-item:hover .details-link {
+.gallery .gallery-item:hover .details-link,
+.gallery .gallery-item:hover  .website-links {
   margin-top: 0;
 }
 
@@ -774,6 +777,11 @@ h6 {
 /*--------------------------------------------------------------
 # Gallery Single Section
 --------------------------------------------------------------*/
+.swiper-horizontal {
+  touch-action: pan-y;
+  height: 35vw;
+}
+
 .gallery-single .portfolio-details-slider img {
   width: 100%;
 }
